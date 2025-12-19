@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+cgpa_config.json
+.DS_Store
