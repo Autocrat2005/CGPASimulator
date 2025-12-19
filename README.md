@@ -35,8 +35,9 @@ Ever wondered if one bad semester ruined your chances at a 9.0? Same. That's why
 
 The tool uses two main approaches:
 1.  **Algebra**: Reverse-engineers the required SGPA for your target.
-    $$ X = \frac{Target(C_{total}) - P_{secured}}{C_{future}} $$
+    X = (Target * Total Credits - Past Points) / Future Credits
 2.  **Monte Carlo**: Generates random SGPAs based on normal distributions ($\mu=SGPA, \sigma=0.3$) for remaining semesters and aggregates the results.
 
 ---
 *Built with NumPy because doing math by hand is for 1st years.*
+
